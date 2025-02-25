@@ -20,7 +20,7 @@ public class BookServiceImplTest {
 
     @Test
     public void testAddAndRetrieveBook() throws StoreException {
-        Book book = new Book("123456", "Java Basics", "John Doe", 499.99, 10);
+        Book book = new Book("23456", "Java Basics", "John Doe", 499.99, 10);
         bookService.addBook(book);
 
         List<Book> books = bookService.getAllBooks(); // Corrected method name
